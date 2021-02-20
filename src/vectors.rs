@@ -3,8 +3,8 @@ pub fn run(){
 
     let mut numbers: Vec<i32>=vec![1,2,3];
     //Adding stuff to vectors 
-    //numbers.push(6);
-    //numbers.push(87);
+    numbers.push(6);
+    numbers.push(87);
 
     //removing from Vectors
     //numbers.pop();
