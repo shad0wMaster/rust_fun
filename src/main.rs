@@ -13,6 +13,7 @@ fn main() {
     //ownership::dog_string();
     //converter::get_fucked();
     translated::circle_math::math();
+    translated::basic_calculator::run();
     /*fibonacci::run();
     //const MAX_POINTS: u32=1000;
     let mut x=5; //needs to be immutable in order to be used twice or more throughout the code.
