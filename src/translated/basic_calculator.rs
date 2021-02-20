@@ -18,8 +18,9 @@ pub fn run(){
     check_value=String::from(second_integer_string);
     checker(check_value);
 }
-fn checker(value:String){
+fn checker(value:String)->String{
     let mut fuck=String::from(value);
     io::stdin().read_line(&mut fuck).expect("Stdin library");
     println!("This is printed at the bottom: {:?}",fuck);
+    return fuck;
 }
