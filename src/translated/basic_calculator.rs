@@ -11,7 +11,11 @@ pub fn run(){
     //Now we will prompt the user and validate the input being passed is a float
     println!("Please Enter you first integer(W): ");
     let first_integer_string=String::new();
-    let check_value=String::from(first_integer_string);
+    let mut check_value=String::from(first_integer_string);
+    checker(check_value);
+    println!("Please Enter you second integer(W): ");
+    let second_integer_string=String::new();
+    check_value=String::from(second_integer_string);
     checker(check_value);
 }
 fn checker(value:String){
