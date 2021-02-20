@@ -17,6 +17,9 @@ pub fn run(){
     let second_integer_string=String::new();
     check_value=String::from(second_integer_string);
     checker(check_value);
+    let test1=String::from("Hello");
+    let test=checker(test1);
+    println!("FUGGGGGGG{:?}",test);
 }
 fn checker(value:String)->String{
     let mut fuck=String::from(value);
