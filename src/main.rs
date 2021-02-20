@@ -4,13 +4,15 @@
 //mod conditionals;
 //mod loops;
 //mod control_flow;
-mod converter;
+//mod converter;
 //mod fibonacci;
-mod ownership;
+//mod ownership;
+mod translated;
 fn main() {
     //ownership::run();
-    ownership::dog_string();
-    converter::get_fucked();
+    //ownership::dog_string();
+    //converter::get_fucked();
+    translated::andy1::math();
     /*fibonacci::run();
     //const MAX_POINTS: u32=1000;
     let mut x=5; //needs to be immutable in order to be used twice or more throughout the code.
